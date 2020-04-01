@@ -309,4 +309,14 @@ Add folder controllers in src
 
 The methods will be there, store, update, delete, index,
 
-continue...
+Create the related methods for each Controller.
+
+Check out the code ;) , just to avoid too much lines of code here.
+
+Install Cors
+
+and At the Index
+
+const cors = require('cors')
+
+app.use(cors())
